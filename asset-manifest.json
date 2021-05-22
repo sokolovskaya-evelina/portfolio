@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6d7a77eb.chunk.css",
+    "main.js": "/portfolio/static/js/main.60efeaaf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.60efeaaf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.62f894de.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.62f894de.js.map",
+    "static/js/2.fabcbddd.chunk.js": "/portfolio/static/js/2.fabcbddd.chunk.js",
+    "static/js/2.fabcbddd.chunk.js.map": "/portfolio/static/js/2.fabcbddd.chunk.js.map",
+    "static/js/3.a417b114.chunk.js": "/portfolio/static/js/3.a417b114.chunk.js",
+    "static/js/3.a417b114.chunk.js.map": "/portfolio/static/js/3.a417b114.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.6d7a77eb.chunk.css.map": "/portfolio/static/css/main.6d7a77eb.chunk.css.map",
+    "static/js/2.fabcbddd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fabcbddd.chunk.js.LICENSE.txt",
+    "static/media/ITunes.62e02b21.jpg": "/portfolio/static/media/ITunes.62e02b21.jpg",
+    "static/media/Todolist.82b19b63.jpg": "/portfolio/static/media/Todolist.82b19b63.jpg",
+    "static/media/calculator.fc410d44.jpg": "/portfolio/static/media/calculator.fc410d44.jpg",
+    "static/media/counter.9b72aad5.jpg": "/portfolio/static/media/counter.9b72aad5.jpg",
+    "static/media/gemPuzzle.bea383fc.jpg": "/portfolio/static/media/gemPuzzle.bea383fc.jpg",
+    "static/media/keyboard.cf7ed396.jpg": "/portfolio/static/media/keyboard.cf7ed396.jpg",
+    "static/media/momentum.a5c69b1e.jpg": "/portfolio/static/media/momentum.a5c69b1e.jpg",
+    "static/media/Main.module.scss": "/portfolio/static/media/photo.9fe79ee4.png",
+    "static/media/shelter.0a5fac3d.jpg": "/portfolio/static/media/shelter.0a5fac3d.jpg",
+    "static/media/social_network.de8bbec8.jpg": "/portfolio/static/media/social_network.de8bbec8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62f894de.js",
+    "static/js/2.fabcbddd.chunk.js",
+    "static/css/main.6d7a77eb.chunk.css",
+    "static/js/main.60efeaaf.chunk.js"
+  ]
+}
