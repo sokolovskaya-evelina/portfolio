@@ -1,0 +1,100 @@
+@import './../../common/styles/sass/variables.scss';
+@import './../../common/styles/sass/mixins.scss';
+
+.main_block {
+  min-height: 100vh;
+  padding: 100px 0;
+  @include flex(row, center, center, nowrap);
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+  }
+
+  .main_container {
+    @include container();
+    @include flex(row, space-around, center, wrap);
+
+    .greeting {
+      @include flex(column, flex-start, flex-start, nowrap);
+
+      span {
+        &:nth-child(1) {
+          color: rgba(198, 201, 216, .75);
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+          display: block;
+          margin-bottom: 20px;
+        }
+
+        &:nth-child(2) {
+          @include text($titleFontFamily, 900, 70px, 53px);
+          letter-spacing: 5px;
+          margin: 10px 0;
+
+          @media screen and (max-width: 400px) {
+            @include text($titleFontFamily, 900, 70px, 40px);
+          }
+        }
+
+        &:nth-child(3) {
+          @include gradientText();
+          @include text($titleFontFamily, 900, 70px, 53px);
+          margin: 0;
+
+          @media screen and (max-width: 400px) {
+            @include text($titleFontFamily, 900, 70px, 30px);
+          }
+        }
+      }
+    }
+
+
+    @media screen and (min-width: 1143px) {
+      align-items: center;
+    }
+
+    .photo {
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width: 1143px) {
+        margin-top: 50px;
+      }
+
+      .image {
+        height: 400px;
+        width: 300px;
+        @include bgSettings();
+        background-image: url('../../assets/image/photo.png');
+        background-position: 80% 0;
+        @media screen and (max-width: 600px) {
+          height: 360px;
+          width: 260px;
+          transition: .5s;
+        }
+        @media screen and (max-width: 400px) {
+          height: 320px;
+          width: 220px;
+          transition: .5s;
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          height: 110%;
+          width: 105%;
+          border: 5px solid $secondaryColor;
+          left: 15px;
+          top: -15px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+

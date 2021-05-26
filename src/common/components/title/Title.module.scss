@@ -1,0 +1,26 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+.title {
+    @include text($titleFontFamily, 300, 1.2, 36px);
+    border-radius: 4px;
+    letter-spacing: 5px;
+    @include gradientText();
+    position: relative;
+    margin: 0 0 60px;
+
+    h2 {
+        margin: 0;
+    }
+    &::before {
+        @include gradient();
+        content: '';
+        position: absolute;
+        width: 55px;
+        height: 5px;
+        border-radius: 5px;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+

@@ -1,0 +1,40 @@
+@import './variables';
+
+@mixin text($fontFamily, $fontWeight, $lineHeight, $fontSize) {
+  font-family: $fontFamily;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+}
+
+@mixin container () {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex ($direction, $justifyContent, $alignItems, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  flex-wrap: $wrap;
+}
+
+@mixin gradient () {
+  background: linear-gradient(
+                  120deg, $primaryColor 20.69%, $thirdColor 50.19%, $secondaryColor 79.69%);
+}
+@mixin gradientText () {
+  background: linear-gradient(
+                  120deg, $primaryColor 20.69%, $thirdColor 50.19%, $secondaryColor 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@mixin bgSettings () {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

@@ -1,0 +1,41 @@
+@import './../../../common/styles/sass/variables.scss';
+@import './../../../common/styles/sass/mixins.scss';
+
+.skill {
+  @include flex(column, center, center, nowrap);
+  text-align: center;
+  width: 200px;
+  color: $textColor;
+  padding: 15px;
+  margin: 25px;
+  border-radius: 10px;
+
+  .skill_icon_container {
+    @include flex(row, center, center, nowrap);
+      margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: $cardColor;
+    transform: rotate(45deg);
+
+    .skill_icon {
+      transform: rotate(-45deg);
+
+      .icon {
+          padding: 10px;
+        height: 60px;
+        width: 60px;
+        color: #7644ff;
+        transform: rotate(-45deg);
+
+      }
+    }
+  }
+
+  .title {
+    @include text($textFontFamily, 400, 1.8, 14px);
+    color: $primaryColor;
+  }
+
+}
+
