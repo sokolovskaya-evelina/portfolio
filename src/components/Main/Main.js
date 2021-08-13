@@ -4,7 +4,6 @@ import Particles from 'react-particles-js';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt'
-import Button from '../../common/components/Button/Button';
 
 
 const particleOpt = {

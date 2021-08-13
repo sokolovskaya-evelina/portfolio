@@ -15,21 +15,21 @@ const Footer = () => {
             <div className={style.footer_container}>
                 <Bounce bottom>
                     <nav className={style.footer_icons}>
-                        <a className={style.footer_icon} href={'https://vk.com/idsokolovskayaevi'} target={'_blank'}>
+                        <a rel="noreferrer" className={style.footer_icon} href={'https://vk.com/idsokolovskayaevi'} target={'_blank'}>
                             <Icon className={style.icon} icon={vkIcon}/>
                         </a>
-                        <a className={style.footer_icon} href={'https://t.me/sokolovskaya_evelina'} target={'_blank'}>
+                        <a rel="noreferrer" className={style.footer_icon} href={'https://t.me/sokolovskaya_evelina'} target={'_blank'}>
                             <Icon className={style.icon} icon={telegramIcon}/>
                         </a>
-                        <a className={style.footer_icon} href={'https://by.linkedin.com/in/evelina-sokolovskaya-38834520b'}
+                        <a rel="noreferrer" className={style.footer_icon} href={'https://by.linkedin.com/in/evelina-sokolovskaya-38834520b'}
                            target={'_blank'}>
                             <Icon className={style.icon} icon={linkedinIcon}/>
                         </a>
-                        <a className={style.footer_icon} href={'https://www.instagram.com/_sokolovskaya_evelina/'}
+                        <a rel="noreferrer" className={style.footer_icon} href={'https://www.instagram.com/_sokolovskaya_evelina/'}
                            target={'_blank'}>
                             <Icon className={style.icon} icon={instagramIcon}/>
                         </a>
-                        <a className={style.footer_icon} href={'https://github.com/sokolovskaya-evelina'} target={'_blank'}>
+                        <a rel="noreferrer" className={style.footer_icon} href={'https://github.com/sokolovskaya-evelina'} target={'_blank'}>
                             <Icon className={style.icon} icon={githubIcon}/>
                         </a>
                     </nav>

@@ -2,7 +2,6 @@ import React from 'react';
 import style from './Projects.module.scss'
 import Project from './Project/Project';
 import Title from '../../common/components/title/Title';
-import socialImage from './../../assets/image/social_network.jpg'
 import todolistImage from './../../assets/image/Todolist.jpg'
 import counterImage from './../../assets/image/counter.jpg'
 import keyboardImage from './../../assets/image/keyboard.jpg'
@@ -11,12 +10,12 @@ import gemPuzzleImage from './../../assets/image/gemPuzzle.jpg'
 import ITunesImage from './../../assets/image/ITunes.jpg'
 import momentumImage from './../../assets/image/momentum.jpg'
 import shelterImage from './../../assets/image/shelter.jpg'
-
+import ghSearchImage from './../../assets/image/github-search.jpg'
 
 const Projects = () => {
-    const social = {
-        backgroundImage: `url(${socialImage})`
-    }
+    // const social = {
+    //     backgroundImage: `url(${socialImage})`
+    // }
     const todolist = {
         backgroundImage: `url(${todolistImage})`
     }
@@ -41,6 +40,9 @@ const Projects = () => {
     const calculator = {
         backgroundImage: `url(${calculatorImage})`
     }
+    const ghSearch = {
+        backgroundImage: `url(${ghSearchImage})`
+    }
     return (
         <div className={style.works_block} id="projects">
             <div className={style.works_container}>
@@ -55,6 +57,8 @@ const Projects = () => {
                              description={'Use TypeScript, React, Redux, Redux-Thunk, API, Axios, TDD, Unit-tests, Storybook, Material-UI'}/>
                     <Project style={counter} title={'Counter'} link={'https://sokolovskaya-evelina.github.io/counter'}
                              description={'Use TypeScript, React, Redux, LocalStorage'}/>
+                    <Project style={ghSearch} title={'Github Search'} link={'https://github-search-sokolovskaya-evelina.vercel.app/'}
+                             description={'Use TypeScript, React, Redux, Redux-Thunk, Axios, Unit tests, LocalStorage'}/>
                     <Project style={shelter} title={'Shelter'}
                              link={'https://sokolovskaya-evelina.github.io/shelter/pages/main/main.html'}
                              description={'HTML, CSS, Vanilla JS'}/>

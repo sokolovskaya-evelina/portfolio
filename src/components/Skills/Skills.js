@@ -14,7 +14,6 @@ import bootstrapIcon from '@iconify-icons/simple-icons/bootstrap';
 import antdesignIcon from '@iconify-icons/simple-icons/antdesign';
 import storybookIcon from '@iconify-icons/simple-icons/storybook';
 import gitIcon from '@iconify-icons/simple-icons/git';
-import Rotate from 'react-reveal/Rotate';
 
 const Skills = () => {
     const icons = {
