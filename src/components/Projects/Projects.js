@@ -58,7 +58,7 @@ const Projects = () => {
                     <Project style={counter} title={'Counter'} link={'https://sokolovskaya-evelina.github.io/counter'}
                              description={'Use TypeScript, React, Redux, LocalStorage'}/>
                     <Project style={ghSearch} title={'Github Search'} link={'https://github-search-sokolovskaya-evelina.vercel.app/'}
-                             description={'Use TypeScript, React, Redux, Redux-Thunk, Axios, Unit tests, LocalStorage'}/>
+                             description={'Use TypeScript, React, Redux, Redux-Thunk, Axios, Unit tests, Storybook'}/>
                     <Project style={shelter} title={'Shelter'}
                              link={'https://sokolovskaya-evelina.github.io/shelter/pages/main/main.html'}
                              description={'HTML, CSS, Vanilla JS'}/>
